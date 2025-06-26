@@ -4,7 +4,7 @@ import AboutMe from "../pages/AboutMe";
 import Contact from "../pages/Contact";
 import Explore from "../pages/Explore";
 import MyPage from "../pages/MyPage";
-import Post from "../pages/Post";
+import Write from "../pages/Write";
 
 const Router = () => {
   const router = createBrowserRouter([
@@ -29,8 +29,8 @@ const Router = () => {
       element: <MyPage />,
     },
     {
-      path: "/post",
-      element: <Post />,
+      path: "/write",
+      element: <Write />,
     },
   ]);
   return <RouterProvider router={router} />;
